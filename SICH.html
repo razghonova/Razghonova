@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sich</title>
+    <style>
+      body {
+        background: linear-gradient(
+          109.6deg,
+          rgb(251, 250, 225) 11.2%,
+          rgb(206, 240, 185) 47.5%,
+          rgb(100, 163, 111) 100.2%
+        );
+      }
+      h1 {
+        line-height: 34px;
+        text-align: center;
+        color: #034403;
+        margin: 0;
+      }
+      h2 {
+        text-align: center;
+        border: 1px solid #034403;
+        color: #034403;
+        line-height: 20px;
+        padding: 20px;
+        font-size: 24px;
+        border-radius: 10px;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+        max-width: 100%;
+      }
+      p {
+        text-align: justify;
+        line-height: 1.25;
+        font-size: 18px;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .learn-more {
+        display: block;
+        margin-top: 10px;
+        text-decoration: none;
+        color: #034403;
+        font-weight: bold;
+      }
+      .learn-more:hover {
+        text-decoration: underline;
+      }
+      .content {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 80px;
+      }
+      .island {
+        color: rgb(3, 42, 3);
+        font-weight: bold;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        background-color: rgb(180, 180, 163);
+        color: rgba(9, 39, 9, 0.704);
+        font-size: 20px;
+        padding: 10px 20px;
+        border: #034403;
+        border-radius: 10px;
+        box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
+      }
+      button:hover {
+        opacity: 0.5;
+        cursor: pointer;
+      }
+      p2 {
+        font-size: 16px;
+        display: block;
+        text-align: center;
+        margin: 5px 10px;
+        font-weight: bold;
+        text-align: right;
+      }
+      hr { 
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 2px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <h1><strong>Zaporozhian Sich</strong></h1>
+      <h2>Free lands of the Zaporozhian Host the Lower</h2>
+      <img
+        src="https://enjoy-ukraine.com/wp-content/uploads/2020/06/Khortytsia.jpg"
+        alt="The Zaporozhian Sich"
+      />
+      <p>
+        <em>
+          <span class="island"> The Zaporozhian Sich</span> was a
+          semi-autonomous polity and proto-state of Cossacks that existed
+          between the 16th to 18th centuries, and existed as an independent
+          stratocratic state within the Cossack Hetmanate for over a hundred
+          years, centred on the region around today's Kakhovka Reservoir and
+          spanning the lower Dnieper river in Ukraine. In different periods the
+          area came under the sovereignty of the Polish–Lithuanian Commonwealth,
+          the Ottoman Empire, the Tsardom of Russia, and the Russian Empire. The
+          term Zaporozhian Sich can also refer metonymically and informally to
+          the whole military-administrative organisation of the Zaporozhian
+          Cossack host.</em
+        >
+        <br />
+        <hr>
+        <a
+          href="https://en.wikipedia.org/wiki/Zaporozhian_Sich"
+          target="_blank"
+          class="learn-more"
+        >
+          Learn more on Wikipedia
+        </a>
+      </p>
+      <button><srtong>Trip to Zaporozhian Sich</srtong></button>
+      <br />
+      <p2> This page coder
+        <br />
+         by Olesia Razghonova </p2>
+    </div>
+    <script>
+      function buy() {
+        let name = prompt("What is your name?");
+        let country = prompt("What country are you from?");
+        country = country.toLowerCase();
+        country = country.trim();
+        if (country === "russia") {
+          alert ("😢Unfortunately" + " " + name + ", " + "you can't visit this plaсe! Please stay home🏚");
+        } else {
+          alert ("☺️Dear" +" " + name +"!" + " We are waiting for you in our home 🇺🇦!")
+        }
+      }
+      let buyButton = document.querySelector("button");
+      buyButton.addEventListener("click", buy);
+    </script>
+  </body>
+</html>
