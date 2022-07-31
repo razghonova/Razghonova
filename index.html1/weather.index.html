@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="weather-app">
+        <h1></h1>
+        <form class="info" id="info">
+          <input
+            type="search"
+            id="city-input"
+            placeholder="Your city..."
+            autofocus="on"
+            autocomplete="off"
+            class="form-control"
+          />
+          <button type="submit" class="btn btn-primary" value="Search">
+            🔍Search
+          </button>
+          <button class="btn btn-success w-100" id="current-button">
+            Current
+          </button>
+        </form>
+        <p id="city">Zaporizhzha, Ukraine☀️</p>
+        <div id="date"></div>
+        <div id="description"></div>
+        <div class="temperature" id="temperature"></div>
+        <div id="temperature-description"></div>
+        <div class="col-1">
+          <ul>
+            <li>Humidity: <span id="hum"></span>%</li>
+            <li>Wind: <span id="wind"></span> km/h</li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="col-1">
+                  <h4>
+                      Sun
+                        <br />
+                      <span class="current-weather-icon">🌥</span>
+                      <br />
+                      27ºC
+                    </h4>
+                  </div>
+                  <div class="col-1">
+                      <h4>
+                          Mon
+                            <br />
+                          <span class="current-weather-icon">🌧</span>
+                          <br />
+                          23ºC
+                        </h4>
+                      </div>
+                      <div class="col-1">
+                          <h4>
+                              Tue
+                                <br />
+                              <span class="current-weather-icon">🌩</span>
+                              <br />
+                              30ºC
+                            </h4>
+                          </div>
+                          <div class="col-1">
+                              <h4>
+                                  Wed
+                                    <br />
+                                  <span class="current-weather-icon">🌤</span>
+                                  <br />
+                                  32ºC
+                                </h4>
+                              </div>
+                              <div class="col-1">
+                                  <h4>
+                                      Thu
+                                        <br />
+                                      <span class="current-weather-icon">☀️</span>
+                                      <br />
+                                      33ºC
+                                    </h4>
+                                  </div>
+                                </div>
+                              </div>
+                                
+                            
+    <script src="src/index.js"></script>
+  </body>
+</html>

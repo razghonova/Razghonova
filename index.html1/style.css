@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+}
+form {
+  font-size: 36px;
+  margin: 20px;
+}
+
+p {
+  color: rgb(33, 33, 33);
+  font-size: 25px;
+  font-weight: 200;
+  line-height: 1;
+}
+.temperature {
+  font-weight: 400;
+  color: rgb(33, 33, 33);
+  font-size: 36px;
+  line-height: 1;
+}
+.col-1 {
+  position: relative;
+  margin: 10px;
+}
+.h4 {
+  margin: 30;
+}
+.weather-app {
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 30px;
+  border: 2px solid rgb(89, 98, 116);
+  border-radius: 10px;
+}
+.current-weather-icon {
+  font-size: 70;
+}
